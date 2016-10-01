@@ -1,0 +1,16 @@
+# double_pinyin.custom.yaml
+
+patch:
+  # 載入朙月拼音擴充詞庫
+  translator/dictionary: luna_pinyin.extended
+
+  # Emoji
+  schema/dependencies:
+    - emoji
+  abc_segmentor/extra_tags:
+    - reverse_lookup
+  reverse_lookup:
+    dictionary: emoji
+    enable_completion: false
+    prefix: "`"
+    tips: 〔表情〕

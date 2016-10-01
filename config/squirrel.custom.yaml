@@ -1,0 +1,29 @@
+patch:
+  us_keyboard_layout: true
+  show_notifications_when: appropriate
+  style:
+    color_scheme: luna
+    font_point: 14
+    horizontal: false
+    inline_preedit: false
+    line_spacing: 1
+    spacing: 5
+    # corner_radius: 10                  # 窗口圆角半径
+    # border_height: 0                   # 窗口边界高度，大于圆角半径才有效果
+    # border_width: 0                    # 窗口边界宽度，大于圆角半径才有效果
+
+  app_options:
+    com.apple.Terminal:
+      ascii_mode: true
+    com.apple.Xcode:
+      ascii_mode: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+    com.mouapp.Mou:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred-2:
+      ascii_mode: true
+    com.sublimetext.3:
+      ascii_mode: true
+    com.torusknot.SourceTreeNotMAS:
+      ascii_mode: true
